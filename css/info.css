@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav2certa{
+    display: flex;
+    background-color: #81B897;
+    color: black;
+    justify-content: center;
+    height: 70px;
+    align-items: center;
+}
+
+.titulonav2{
+    font-family: "Lobster", sans-serif;
+    font-size: 150%;
+}
+.iconesnav2{
+    padding-left: 700px;
+    margin-left: 200px;
+}
+.topicos{
+    display: flex;
+ justify-content: space-around;
+ list-style: none;
+ margin-top: 0;
+ padding: 20px;
+ border: 1px solid;
+}
+
+.subtitle{
+    color: gray;
+    font-size: smaller;
+}
+
+body{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin: 0;
+padding: 0;
+background-color: #f4f4f4;
+}
+
+header {
+background-color: #81B897 ;
+padding: 10px 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.container {
+max-width: 1200px;
+margin: 20px auto;
+padding: 20px;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bookdetails {
+display: flex;
+gap: 20px;
+}
+
+.bookborder img {
+max-width: 300px;
+border: 1px solid #ccc;
+border-radius: 8px;
+}
+
+.book-info  {
+margin: 10px 0;
+line-height: 1.6;
+}
+
+.price {
+font-size: 1.5em;
+color: #2a7a2a;
+margin: 20px 0;
+}
+
+.actions {
+display: flex;
+gap: 10px;
+}
+
+.actions button {
+padding: 10px 20px;
+font-size: 1em;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.actions .add-to-cart {
+background-color: #B6DBB4;
+}
+
+.actions .buy-now {
+background-color: #95A594;
+}
